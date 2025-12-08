@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Task Manager - DevOps Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main-heading">Simple Task Manager</h1>
+            <p class="subtitle">DevOps CI/CD Pipeline Demo</p>
+        </header>
+
+        <nav id="navigation">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">Tasks</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+
+        <main>
+            <section class="features">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Add Tasks</h3>
+                        <p>Create and manage your tasks efficiently</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Track Progress</h3>
+                        <p>Monitor your task completion status</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Simple UI</h3>
+                        <p>Clean and intuitive interface</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="task-form">
+                <h2>Add New Task</h2>
+                <form id="taskForm">
+                    <div class="form-group">
+                        <label for="taskInput">Task Name:</label>
+                        <input type="text" id="taskInput" name="taskInput" placeholder="Enter task name" required>
+                    </div>
+                    <button type="submit" id="addTaskBtn">Add Task</button>
+                </form>
+                <div id="message" class="message"></div>
+            </section>
+
+            <section class="task-list">
+                <h2>Your Tasks</h2>
+                <ul id="taskList">
+                    <li class="task-item">Sample Task 1</li>
+                    <li class="task-item">Sample Task 2</li>
+                </ul>
+            </section>
+
+            <section class="counter">
+                <p>Total Tasks: <span id="taskCounter">2</span></p>
+                <button id="clearAllBtn" class="btn-secondary">Clear All Tasks</button>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <p>&copy; 2025 DevOps Assignment | Selenium + Jenkins + Docker</p>
+            <div class="links">
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Terms</a>
+                <a href="#" class="footer-link">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
