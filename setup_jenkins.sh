@@ -86,3 +86,4 @@ echo "4. Install suggested plugins"
 echo "5. Create admin user"
 echo ""
 echo "=========================================="
+# Pipeline test - Dec 10, 2025
