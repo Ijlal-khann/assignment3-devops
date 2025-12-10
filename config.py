@@ -1,5 +1,6 @@
 """
 Configuration file for Selenium tests
+Testing Jenkins Pipeline - Dec 10, 2025
 """
 
 # Test URL - Docker host IP when running in container
